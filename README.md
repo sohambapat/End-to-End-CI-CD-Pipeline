@@ -88,6 +88,6 @@ Additional Notes:
   -	Port 3000 is exposed to the internet to allow external access to the application.
 
 Folder Structure:
-- The Ansible playbook running on the Control node can be found in https://github.ncsu.edu/sbapat2/CSC-519-Project/tree/main/Server%20Files
-- The Dockerfile for Docker deployments can be found in https://github.ncsu.edu/sbapat2/CSC-519-Project/tree/main/Server%20Files
-- The linting and deployment workflows can be found in https://github.ncsu.edu/sbapat2/CSC-519-Project/tree/main/.github/workflows
+- The Ansible playbook running on the Control node can be found in https://github.com/sohambapat/End-to-End-CI-CD-Pipeline/tree/main/Server%20Files
+- The Dockerfile for Docker deployments can be found in https://github.com/sohambapat/End-to-End-CI-CD-Pipeline/tree/main/Server%20Files
+- The linting and deployment workflows can be found in https://github.com/sohambapat/End-to-End-CI-CD-Pipeline/tree/main/.github/workflows
