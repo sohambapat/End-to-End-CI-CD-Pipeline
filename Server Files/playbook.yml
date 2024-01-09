@@ -1,0 +1,27 @@
+# playbook.yaml
+---
+- hosts: slave_nodes
+  become: true
+  tasks:
+    - name: Stop and remove a specific container
+      docker_container:
+        name: "coffee-project"
+        state: absent
+
+    - name: Pull Docker image
+      docker_image:
+        name: "sohambapat/coffee-project"
+        tag: "latest"
+        source: pull
+
+    - name: Delete old Docker images
+      command: docker image prune -a --force
+
+    - name: Run Docker container
+      docker_container:
+        name: "coffee-project"
+        image: "sohambapat/coffee-project:latest"
+        state: started
+        restart_policy: always
+        ports:
+           - "3000:3000"
