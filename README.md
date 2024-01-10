@@ -1,9 +1,6 @@
 # End-to-End CI/CD Pipeline
 
-
-Team Members:
-
-Soham Bapat - sbapat2(school) or sohambapat(personal) - sbapat2@ncsu.edu (school) or sohambapat27@gmail.com (personal)
+Soham Bapat - sohambapat - sohambapat27@gmail.com
 
 
 Project Proposal 
